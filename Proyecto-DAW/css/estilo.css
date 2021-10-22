@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	  font-family: 'Poppins';
+	  list-style-type: none;
+	  text-decoration: none;
+}
+header nav{
+	width:100%;
+	background-color: white;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding:20px 20px;
+}
+ul li{
+	padding:0px 20px;
+	color:black;
+}
+li a{
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+}
+#formularioPrestamoscontainer{
+  width:100%;
+  text-align: center;
+  color:white;
+}
+#formularioPrestamosObjeto, #formularioParentesco{
+  margin-top:50px;
+  width:50%;
+  background: #000;
+  margin-left:350px;
+  padding-bottom:20px;
+}
+#titulopr{
+  font-size:20px;
+  padding-top:30px;
+  margin-bottom:50px;
+  color:white;
+}
+#nombreContainer, #descripcionContainer, #categoriaContainer, #containerSubmit-FormObjeto{
+  width:100%;
+  margin-top:20px;
+}
+#nombreContainer label, #descripcionContainer label, #categoriaContainer label{
+  font-size:15px;
+}
+#nombreContainer #nombreObjeto{
+  width:50%;
+  height:30px;
+  padding:5px;
+}
+
+#descripcionObjeto{
+  min-height: 100px;
+  max-height: 100px;
+  width:50%;
+  resize: none;
+  margin-left:54px;
+  margin-top:10px;
+  padding:5px;
+}
+#categoriaObjeto{
+  margin-left:20px;
+}
+#addCategoria{
+  width:150px;
+  height:40px;
+  margin-left:40px; 
+  color:white;
+  background: #000;
+  border:2px solid white;
+
+}
+#addCategoria:hover{
+  border:none;
+  background-color:white;
+  color:black;
+  font-weight: bold;
+  cursor:pointer;
+
+}
+
+#submit-FormObjeto{
+  width:150px;
+  height:40px;
+  margin-left:40px; 
+  border:none;
+  background-color:white;
+  color:black;
+  font-weight: bold;
+  cursor:pointer;
+}
+#displaySubControls{
+  width:100%;
+  border-bottom:1px solid white;
+  padding-bottom:10px;
+}
+
+#buttonNewOption, #buttoCancelOption{
+  width:150px;
+  height:40px;
+  margin-left:20px;
+  margin-top:10px;
+  color:white;
+  font-weight: bold;
+}
+#buttonNewOption{
+  background-color: blue;
+  border:none;
+}
+#buttoCancelOption{
+  background-color: blue;
+  border:none;
+}
+#nuevaCategoria{
+  height:25px;
+  padding:5px;
+}
+
+
+/*Formulario parentesco*/
+#nombrePersonaContainer, #parentescoPersonaContainer, #correoElectronicoPersona, #celularPersona, #containerFechaAgendacion, #containerFechaLimite, #containerSubmit-FormPersona{
+  width:100%;
+  margin-top:20px;
+}
+
+#containerConfirmarAccion{
+  width:100%;
+}
+#submitRealizarAccion{
+  width:150px;
+  height:40px;
+  border:none;
+  background: #000;
+  color:white;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+@media (max-width:667px) {
+  #formularioPrestamoscontainer{
+    width:150%;
+    margin-left: -80%;
+    text-align: center;
+    color:white;
+  }
+  #submitRealizarAccion{
+    margin-left: 50%;
+  }
+
+}
